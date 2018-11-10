@@ -38,7 +38,7 @@ document.onkeyup = function (event) {
     if (userGuess === computerChoice) {
         wins++;
         winsText.innerHTML = "You win!: " + wins;
-        alert("You Win!")
+        alert("You Win! I was thinking of " + computerChoice + "!")
         begingame();
     }
     // reduce guesses remaining until we get to 0, then register a loss 
