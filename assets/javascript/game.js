@@ -50,7 +50,7 @@ document.onkeyup = function (event) {
         if (guessesRemaining === 0) {
             losses++;
             lossesText.innerHTML = "Sorry! You lose: " + losses;
-            alert("I was thinking of " + computerChoice + "!")
+            alert("Sorry, you lose! I was thinking of " + computerChoice + "!")
             begingame();
         }
     }
